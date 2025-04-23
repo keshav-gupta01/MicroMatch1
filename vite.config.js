@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),tailwindcss()],
-    base : "/MicroMatch1",
+    base : process.env.VITE_BASE_PATH || '/MicroMatch1',
 })
