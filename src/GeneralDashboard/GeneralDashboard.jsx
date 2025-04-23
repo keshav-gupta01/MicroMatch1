@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeroSection, Navbar,Companies, About,FeedBack,CTA,Footer } from './components/index.js'
+import { HeroSection, Navbar,Companies,CTA,Footer } from './components/index.js'
 import InfluencerSlider from "./components/InfluencerSlider.jsx";
 
 function LandingPage() {
